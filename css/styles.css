@@ -110,11 +110,6 @@ main .container .left-text .orangebtn {
     color: #fff;
 }
 
-main .container .left-text .orangebtn a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 /* Time section */
 main .container .left-text .time-section {
     display: flex;
