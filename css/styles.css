@@ -34,7 +34,7 @@ nav ul li {
     list-style: none;
 }
 
-nav ul li a {
+a {
     text-decoration: none;
     color: #000000;
 }
@@ -108,6 +108,10 @@ main .container .left-text .orangebtn {
     padding: 16px 40px;
     border: 0;
     color: #fff;
+}
+
+main .container .left-text .orangebtn a {
+    color: #ffffff;
 }
 
 main .container .left-text .time-section {
