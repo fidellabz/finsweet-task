@@ -129,7 +129,7 @@ main .container .left-section .time-section {
 main .container .right-img {
     width: 50%;
     height: 100%;
-    background-image: url("https://github.com/fidellabz/finsweet-task/img/pexel.png");
+    background-image: url("https://fidellabz.github.io/finsweet-task/img/pexel.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -456,7 +456,7 @@ main .container .right-img #ratings {
 }
 
 .car-image {
-    background-image: url(https://github.com/fidellabz/finsweet-task/img/car.image.png);
+    background-image: url("https://fidellabz.github.io/finsweet-task/img/car.image.png");
     background-size: cover;
     background-position: center;
     width: 550px;
@@ -464,7 +464,7 @@ main .container .right-img #ratings {
 }
 
 .carconnect-image {
-    background-image: url(https://github.com/fidellabz/finsweet-task/img/car.connect.png);
+    background-image: url("https://fidellabz.github.io/finsweet-task/img/car.connect.png");
     background-size: cover;
     background-position: center;
     width: 944px;
