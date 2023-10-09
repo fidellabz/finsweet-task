@@ -603,8 +603,295 @@ h1 {
 
 /* Mobile Styles */
 
-@media (max-width: 768px),
-(max-width: 480px) {
+@media(max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    header {
+        width: 100%;
+        font-size: 10px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        column-gap: 0;
+    }
+
+    nav ul {
+        align-items: flex-start;
+        border: none;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav .right-contact {
+        column-gap: 0;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    nav .right-contact .right-contact-icon img {
+        width: 50%;
+    }
+
+    nav .right-contact .right-contact-text {
+        font-size: 10px;
+    }
+
+    /* section one */
+    main .container .left-section,
+    main .container .right-img {
+        width: 100%;
+        /* background-color: #153d5c; */
+    }
+
+    main .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main .container .left-section .content {
+        width: 100%;
+    }
+
+    main .container .left-section h1 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    main .container .left-section .orangebtn {
+        width: 60%;
+        font-size: 60%;
+    }
+
+    main .container .left-section .time-section {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .time-section img {
+        width: 60%;
+    }
+
+    .text-section .time-text {
+        width: 95%;
+    }
+
+    main .container .left-section {
+        width: 100%;
+        /* background-color: #153d5c; */
+    }
+
+    .right-img {
+        margin-top: 30px;
+    }
+
+    /******Quote******/
+    .quote-section .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .quote-section .container .quote-left {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quote-section .container .quote-left .left-section {
+        width: 80%;
+    }
+
+    .quote-section .container .quote-left .left-section h1 {
+        font-size: 28px;
+    }
+
+    .quote-section .container .quote-left .left-section ul li h5 {
+        font-size: 18px;
+    }
+
+    .quote-section .container .quote-left .left-section ul li p {
+        font-size: 10px;
+    }
+
+    .textbox {
+        width: 70%;
+    }
+
+    .quote-section .container .quote-right {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quote-section .container .quote-right .right-section {
+        width: 80%;
+    }
+
+    .quote-section .container .quote-right .right-section h3 {
+        font-size: 28px;
+    }
+
+    .quote-section .container .quote-right form .inputbox {
+        width: 80%;
+    }
+
+    .quote-section .container .quote-right form .orangebtn {
+        width: 50%;
+        font-size: 60%;
+    }
+
+    /*********booking***********/
+
+    .booking-section .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .booking-section .container .booking-left {
+        width: 80%;
+    }
+
+    .booking-section .container .booking-left .left-section {
+        width: 80%;
+    }
+
+    .booking-section .container .booking-left p {
+        font-size: 12px;
+    }
+
+    .booking-section .container .booking-left .left-section h1 {
+        font-size: 28px;
+    }
+
+    .orangebtn {
+        width: 60%;
+        font-size: 50%;
+    }
+
+    .booking-section .container .booking-right {
+        width: 80%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking-section .container .booking-right .right-section {
+        width: 90%;
+        margin-top: 5%;
+        /* background-color: #885050; */
+    }
+
+    .booking-section .container .booking-right .right-section ul li h3 {
+        font-size: 18px;
+    }
+
+    .booking-section .container .booking-right .right-section ul li p {
+        font-size: 10px;
+    }
+
+    /**************offer************/
+    .offerd-section .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .offerd-section .container .offerd-center {
+        width: 80%;
+    }
+
+    .offerd-section .container .top-section h4 {
+        font-size: 10px;
+    }
+
+    .offerd-section .container .top-section h2 {
+        font-size: 28px;
+    }
+
+    .offerd-section .container .frame #boxrow .box {
+        width: 125px;
+        height: 125px;
+        margin: 2px;
+        background-color: #fff;
+        transition: background-color 0.3s ease-in-out;
+        text-align: center;
+        padding: 21px;
+        font-size: 10px;
+    }
+
+    .offerd-section .container .subframe p {
+        font-size: 12px
+    }
+
+    .offerd-section .container .frame #boxrow .box:nth-child(3) {
+        background-color: #ff5733;
+    }
+
+    .offerd-section .container .frame #boxrow .box:hover {
+        background-color: #ff5733;
+    }
+
+    /*****contact******/
+    .contact-box {
+        margin-left: 60px;
+    }
+
+    .orangebox-text h4 {
+        font-size: 18px;
+    }
+
+    .exp-amount {
+        font-size: 28px;
+        color: #661ce7;
+        font-weight: bold;
+    }
+
+    .exp-box p {
+        font-size: 8px;
+    }
+
+    /************brands*********/
+
+    .brand-section .container .brand-center {
+        margin: 0;
+        padding: 0
+    }
+
+    .brand h2 {
+        font-size: 24px;
+    }
+
+    .brand-section .container .frame #boxrow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .brand-section .container .frame #boxrow .boxsize img {
+        width: 40%px;
+    }
+}
+
+@media (max-width: 768px) {
     .container {
         max-width: 100%;
         padding: 0 10px;
